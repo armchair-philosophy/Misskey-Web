@@ -22,7 +22,7 @@ html(
 	head(prefix='og: http://ogp.me/ns#')
 		meta(charset='utf-8')
 		meta(http-equiv='X-UA-Compatible', content='IE=edge')
-		meta(name='robots', content='all')
+		meta(name='robots', content='noindex,nofollow')
 		meta(name='application-name', content='Misskey')
 		meta(name='theme-color', content= config.themeColor)
 		meta(name='coverage', content='worldwide')
@@ -71,5 +71,5 @@ html(
 			    var s = d.getElementsByTagName('script')[0];
 			        s.parentNode.insertBefore(c, s);
 			})(document);
-	
+
 		!= '<!-- このセッションは ' + workerId + ' が担当しました -->'
